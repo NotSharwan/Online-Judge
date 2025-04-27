@@ -1,3 +1,13 @@
-node_modules/
-client/node_modules/
-.env
+# Ignore environment variables
+backend/.env
+
+# Ignore dependencies (node_modules should NOT be committed)
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore build and log files
+dist/
+.vscode/
+.DS_Store
+npm-debug.log
+yarn-error.log

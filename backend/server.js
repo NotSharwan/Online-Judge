@@ -15,4 +15,4 @@ app.use("/api/problems", require("./routes/problemRoutes"));
 app.use("/api/submissions", require("./routes/submissionRoutes"));
 
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+app.listen(5004, () => console.log("Server running on port 5004"));
